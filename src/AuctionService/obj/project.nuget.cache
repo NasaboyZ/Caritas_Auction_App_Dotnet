@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0NJQwScCado=",
+  "success": true,
+  "projectFilePath": "/Users/josef/Documents/Udemy/Dotnet/carsties/src/AuctionService/AuctuibService.csproj",
+  "expectedPackageFiles": [
+    "/Users/josef/.nuget/packages/microsoft.aspnetcore.openapi/10.0.9/microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "/Users/josef/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
