@@ -9,7 +9,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace AuctuibService.Data.Migrations
+namespace AuctionService.Data.Migrations
 {
     [DbContext(typeof(AuctionDbContext))]
     [Migration("20260620134740_InitialCreate")]
@@ -25,7 +25,7 @@ namespace AuctuibService.Data.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("AuctionService.Entitis.Auction", b =>
+            modelBuilder.Entity("AuctionService.Entities.Auction", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -63,7 +63,7 @@ namespace AuctuibService.Data.Migrations
                     b.ToTable("Auctions");
                 });
 
-            modelBuilder.Entity("AuctionService.Entitis.Item", b =>
+            modelBuilder.Entity("AuctionService.Entities.Item", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -98,18 +98,18 @@ namespace AuctuibService.Data.Migrations
                     b.ToTable("Items");
                 });
 
-            modelBuilder.Entity("AuctionService.Entitis.Item", b =>
+            modelBuilder.Entity("AuctionService.Entities.Item", b =>
                 {
-                    b.HasOne("AuctionService.Entitis.Auction", "Auction")
+                    b.HasOne("AuctionService.Entities.Auction", "Auction")
                         .WithOne("Item")
-                        .HasForeignKey("AuctionService.Entitis.Item", "AuctionId")
+                        .HasForeignKey("AuctionService.Entities.Item", "AuctionId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Auction");
                 });
 
-            modelBuilder.Entity("AuctionService.Entitis.Auction", b =>
+            modelBuilder.Entity("AuctionService.Entities.Auction", b =>
                 {
                     b.Navigation("Item");
                 });

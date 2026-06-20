@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AuctionService.Entitis;
+namespace AuctionService.Entities;
 
-[Table("Items")] // This attribute is used to specify the name of the table in the database that this entity will be mapped to. In this case, it indicates that instances of the Item class will be stored in a table named "Items".
+[Table("Items")]
 public class Item
 {
     public Guid Id { get; set; }

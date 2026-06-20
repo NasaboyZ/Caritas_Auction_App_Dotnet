@@ -24,5 +24,13 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+try
+{
+    DbInitializer.InitDb(app);
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"An error occurred while initializing the database: {ex.Message}");
+}
 
 app.Run();
