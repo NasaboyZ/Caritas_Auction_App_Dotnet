@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuctuibService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe59c113565ea5bfc71e35e668c747038d48141a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+946415b1c1199b79cd36bd2d62d9c0c86f9bd364")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuctuibService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuctuibService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
