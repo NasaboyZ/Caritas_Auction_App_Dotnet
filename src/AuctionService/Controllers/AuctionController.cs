@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 namespace AuctionService.Controller;
 
 [ApiController]
-[Route("api/auction")]
+[Route("api/auctions")]
 public class AuctionController : ControllerBase
 {
     private readonly AuctionDbContext _context;
