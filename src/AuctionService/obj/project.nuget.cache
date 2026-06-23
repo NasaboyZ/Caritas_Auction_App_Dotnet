@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Y2An35sciRs=",
+  "dgSpecHash": "TUHe3Fm6BC0=",
   "success": true,
   "projectFilePath": "/Users/josef/Documents/Udemy/Dotnet/carsties/src/AuctionService/AuctuibService.csproj",
   "expectedPackageFiles": [
-    "/Users/josef/.nuget/packages/automapper/16.1.1/automapper.16.1.1.nupkg.sha512",
+    "/Users/josef/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/josef/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/josef/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/josef/.nuget/packages/microsoft.aspnetcore.openapi/10.0.9/microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
     "/Users/josef/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -19,10 +20,6 @@
     "/Users/josef/.nuget/packages/microsoft.entityframeworkcore.design/8.0.16/microsoft.entityframeworkcore.design.8.0.16.nupkg.sha512",
     "/Users/josef/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.16/microsoft.entityframeworkcore.relational.8.0.16.nupkg.sha512",
     "/Users/josef/.nuget/packages/microsoft.extensions.dependencymodel/8.0.2/microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512",
-    "/Users/josef/.nuget/packages/microsoft.identitymodel.abstractions/8.14.0/microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
-    "/Users/josef/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.14.0/microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
-    "/Users/josef/.nuget/packages/microsoft.identitymodel.logging/8.14.0/microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
-    "/Users/josef/.nuget/packages/microsoft.identitymodel.tokens/8.14.0/microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
     "/Users/josef/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
     "/Users/josef/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/josef/.nuget/packages/npgsql/8.0.4/npgsql.8.0.4.nupkg.sha512",
@@ -35,5 +32,18 @@
     "/Users/josef/.nuget/packages/system.composition.runtime/6.0.0/system.composition.runtime.6.0.0.nupkg.sha512",
     "/Users/josef/.nuget/packages/system.composition.typedparts/6.0.0/system.composition.typedparts.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'AutoMapper' 12.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "projectPath": "/Users/josef/Documents/Udemy/Dotnet/carsties/src/AuctionService/AuctuibService.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/josef/Documents/Udemy/Dotnet/carsties/src/AuctionService/AuctuibService.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

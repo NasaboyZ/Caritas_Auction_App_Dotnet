@@ -8,17 +8,11 @@ public class Auction
     public string Seller { get; set; }
     public string Winner { get; set; }
     public int? SoldAmount { get; set; }
-    public int CurrentHighestBid { get; set; }
+    public int? CurrentHighestBid { get; set; }
     public DateTime CreatedAt { get; set; }
-    public DateTime EndedAt { get; set; }
+    public DateTime? EndedAt { get; set; }
     public DateTime AuctionEnd { get; set; }
     public Status Status { get; set; }
-    public string Make { get; set; }
-    public string Model { get; set; }
-    public int Year { get; set; }
-    public string Color { get; set; }
-    public int Mileage { get; set; }
-    public string ImageUrl { get; set; }
-
+    public required Item Item { get; set; }
 
 }
