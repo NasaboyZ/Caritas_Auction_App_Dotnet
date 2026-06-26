@@ -13,7 +13,7 @@ jobs:
       pull-requests: write
 
     env:
-      Solution_Name: your-solution-name.sln # HIER: Name deiner Solution eintragen
+      Solution_Name: carsties.slnx # Solution-Datei im Repo
 
     steps:
       - name: Checkout Code
@@ -47,7 +47,7 @@ jobs:
       - name: Execute Unit Tests
         run: dotnet test ${{ env.Solution_Name }} --no-build -c Release
 
-      # 5. AUTO-MERGE: Nur wenn Secrets-Scan, Build und Tests erfolgreich waren
+      # 5. AUTO-MERGE:
       - name: Auto-Merge Pull Request
         if: success()
         env:
