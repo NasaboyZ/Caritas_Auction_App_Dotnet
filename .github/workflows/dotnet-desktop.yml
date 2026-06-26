@@ -13,7 +13,7 @@ jobs:
       pull-requests: write
 
     env:
-      Solution_Name: carsties.slnx # Solution-Datei im Repo
+      Solution_Name: carsties.slnx
 
     steps:
       - name: Checkout Code
