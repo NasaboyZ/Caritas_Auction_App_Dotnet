@@ -1,5 +1,7 @@
 # AutoAuction Microservices – A .NET/C# Learning Project
 
+![Projekt-Thumbnail](assets/images/architecture.jpg)
+
 A microservices-based auto auction platform built from scratch with .NET/C# for the backend and Next.js for the frontend. Users can register, upload profile pictures, place bids, and interact in real-time. The system integrates Docker, Kubernetes, RabbitMQ for event-driven communication, and Duende IdentityServer for authentication.
 
 **Goals:**
